@@ -17,8 +17,11 @@
     </ul>
   </div>
   </nav>
-    <router-view/>
     <img src="./assets/logo.png">
+    <router-view/>
+    <div class="jumbotron text-center" style="margin-bottom:0">
+      <p>Copyright  &copy; 2018, RC Computing Services, All Rights Reserved</p>
+      </div>
   </div>
 </template>
 

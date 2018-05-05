@@ -4,7 +4,7 @@ import Router from 'vue-router'
 import HomePage from '@/components/HomePage'
 import About from '@/components/About'
 import Contact from '@/components/Contact'
-import Portfolio from '@/components/Portfolio'
+import Services from '@/components/Services'
 
 Vue.use(Router)
 
@@ -26,9 +26,9 @@ export default new Router({
       component: Contact
     },
     {
-      path: '/Portfolio',
-      name: 'Portfolio',
-      component: Portfolio
+      path: '/Services',
+      name: 'Services',
+      component: Services
     }
   ]
 })

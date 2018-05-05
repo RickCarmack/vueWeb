@@ -4,14 +4,15 @@
 
 <script>
 export default {
-  name: 'Portfolio',
+  name: 'Services',
   data () {
     return {
-      msg: 'Portfolio'
+      msg: 'Services'
     }
   }
 }
 </script>
 
-<style>
+<!-- Add "scoped" attribute to limit CSS to this component only -->
+<style scoped>
 </style>
